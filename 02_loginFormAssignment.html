@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+     .div{
+        width: 300px;
+        border: 1px solid white;
+        background-image: url(blur-hospital-clinic-interior.jpg);
+        
+        background: transparent;
+        color: white;
+        position: absolute;
+        top: 50px;
+        left: 600px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+       box-shadow: 5px 10px #888888;;
+     }
+
+     body{
+        background-image: url(blurred-bokeh-style-lights-evening.jpg);
+        
+     }
+
+     .input{
+        margin-left: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+     }
+     .para1 a{
+        margin-left: 10px;
+     }
+
+     .login{
+        background-color: cornflowerblue;
+        width: 200px;
+        padding: 10px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+     }
+
+     .b1{
+        width: 100px;
+        padding: 10px;
+        background-color: #385898;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+     }
+
+     #b2{
+        background-color:crimson ;
+     }
+     
+
+     
+
+     
+    </style>
+  </head>
+  <body>
+    <div >
+      <div class="div">
+        <h2>Login Form</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+              
+                <input  class="input" type="text" placeholder="Email or Phone" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input class="input" type="text" placeholder="Password" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="para1"><a href="">Forgot Password?</a></p>
+
+        <button class="login">LOGIN</button>
+        <p>Or login with</p>
+        <button class="b1">
+          <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
+        </button>
+        <button class="b1" id="b2">
+          <i class="fa fa-instagram" aria-hidden="true"></i> Instagram
+        </button>
+        <p>Don't have account? <a href="">Signup Now</a></p>
+      </div>
+    </div>
+  </body>
+</html>
