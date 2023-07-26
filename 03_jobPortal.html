@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .container {
+        width: 1280px;
+        height: 412px;
+        border: 2px solid black;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 0, 0.273),
+            rgba(0, 0, 255, 0.349)
+          ),
+          url(whatsappJobPortalImage.jpg);
+      }
+
+      .cover {
+        width: 1280px;
+        height: 412px;
+        border: 2px solid transparent;
+        background-color: rgba(51, 51, 157, 0.5);
+      }
+
+      .section1 {
+        border: 2px solid transparent;
+        width: 450px;
+        height: 210px;
+        position: relative;
+        top: 85px;
+        left: 120px;
+      }
+
+      .section2 {
+        border: 4px solid rgba transparent;
+        width: 470px;
+        height: 210px;
+        position: absolute;
+        left: 680px;
+        top: 110px;
+        background-color: rgba(142, 115, 201, 0.6);
+        border-radius: 15px;
+        box-shadow: -2px 2px 30px 4px #111a44;
+      }
+
+      p {
+        color: white;
+        font-weight: bold;
+        font-size: small;
+        position: relative;
+        top: 20px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      h2 {
+        color: white;
+        font-weight: bold;
+        font-size: xx-large;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .btn1 {
+        width: 140px;
+        height: 40px;
+        border-radius: 33px;
+        color: rgb(170, 147, 220);
+        background-color: transparent;
+        font-weight: bolder;
+        border: 2px solid rgb(170, 147, 220);
+        font-family: "Poppins", sans-serif;
+      }
+
+      .btn1:hover{
+        background-color: #0dcaf0;
+      }
+
+      h3 {
+        color: white;
+        margin-left: 40px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .inp1 {
+        height: 40px;
+        position: relative;
+        bottom: 15px;
+        left: 30px;
+        border-radius: 33px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .inp2 {
+        height: 40px;
+        position: relative;
+        bottom: 15px;
+        left: 30px;
+        border-radius: 33px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+      }
+
+      input:placeholder-shown {
+        text-align: center;
+      }
+
+      .btn2 {
+        display: block;
+        height: 40px;
+        border-radius: 33px;
+        border: none;
+        position: relative;
+        /* top: 10px; */
+        width: 400px;
+        left: 30px;
+        color: #fff;
+        background-color: rgba(49, 89, 199, 0.659);
+        box-shadow: 3px -5px 98px 1px #1938d4 inset;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-size: larger;
+      }
+
+      .btn2:hover{
+        background-color: #0dcaf0;
+      }
+
+      .popular {
+        color: #fff;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .key1 {
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 4px;
+        border-radius: 20px;
+        position: relative;
+        top: 15px;
+        left: 14px;
+        font-size: small;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .key1:hover{
+        background-color: white;
+      }
+      .key2 {
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 4px;
+        border-radius: 20px;
+        position: relative;
+        top: 15px;
+        left: 17px;
+        font-size: small;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .key2:hover{
+        background-color: white;
+      }
+      .key3 {
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 4px;
+        border-radius: 20px;
+        position: relative;
+        top: 15px;
+        left: 20px;
+        font-size: small;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .key3:hover{
+        background-color: white;
+      }
+
+      .icon1{
+            position: absolute;
+            left: 50px;
+            top: 60px;
+            z-index: 1;
+            color: rgb(70, 66, 66);
+        }
+        .icon2
+        {
+            position: absolute;
+            left: 225px;
+            top: 60px;
+            z-index: 1;
+            color: rgb(70, 66, 66);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cover">
+        <!-- section 1 -->
+        <div class="section1">
+          <p>Are you looking for your dream job?</p>
+          <h2>
+            Online Platform. <br />
+            Best Job portal
+          </h2>
+          <button class="btn1" type="submit">Browse Categories</button>
+        </div>
+
+        <!-- section 2 -->
+        <div class="section2">
+          <h3>Search your dream job</h3>
+          <span class="icon1"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+          <input class="inp1" type="text" placeholder="Job Title" />
+          <span class="icon2"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+          <input class="inp2" type="text" placeholder="Location" />
+          <button class="btn2" type="submit">Find a job</button>
+          <span class="popular">Popular keywords:</span>
+          <span class="key1">Web Design</span>
+          <span class="key2">Marketing</span>
+          <span class="key3">Customer Support</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
