@@ -20,4 +20,32 @@ let sum=num.reduce((previous,current)=>{
 },4);
 console.log(sum);
 
-console.log(`------------------------------------------------------------------------`)
+console.log(`----------------------------- map square-------------------------------------------`);
+let add=0;
+ let square=num.map((element)=>{
+  add=add+(element*element);
+ });
+ console.log(add);
+
+ console.log(`----------------------------- sort using logic-------------------------------------------`);
+console.log(num.sort((n1,n2)=>{
+     return n1>n2?+1:-1
+}));
+
+console.log(`----------------------------- sort-------------------------------------------`);
+console.log(num.sort((a,b)=>{
+     return a-b
+}));
+
+console.log(`----------------------------- flatMap-------------------------------------------`);
+
+const myArr = [1, 2, 3, 4, 5,6];
+const newArr = myArr.flatMap((x) => x * 2);
+console.log(newArr);
+
+console.log(`----------------------------- flatMap1-------------------------------------------`);
+
+
+const arr3 = [1, 2, [4, 5], 6, 7, [8]] ;
+
+console.log(arr3.map((element) => element*2)); 
