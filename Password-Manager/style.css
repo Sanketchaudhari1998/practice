@@ -70,3 +70,13 @@ h1, h2, h3{
     border-radius: 8px;
     cursor: pointer;
 }
+
+img{
+    cursor: pointer;
+}
+
+#alert
+  {
+    display: none;
+    color: rgb(211, 24, 111);
+  }
